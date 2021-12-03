@@ -1,0 +1,91 @@
+.menu__button{
+	background-color: white;
+	border: 1pt solid black;
+	float: right;
+	margin: 0px;
+	padding: 5px;
+}
+
+.menu__button:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+.menu__container{
+	margin: auto;
+	width: 500px;
+}
+
+.menu__option{
+	background-color: white;
+	border: solid;
+	border-color: white;
+	display: block;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.menu__option:hover{
+	border: solid;
+	border-color: green;
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.menu__section{
+	border: solid;
+	border-color: black;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	max-height: 400px;
+	overflow: auto;
+	padding: 10px;
+	width: 100%;
+}
+
+.menu__section-option{
+	background-color: white;
+	border: 1pt solid white;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	text-align: center;
+	width: 300px;
+}
+
+.menu__section-option:hover{
+	border: 1pt solid green;
+	cursor: pointer;
+}
+
+.menu__section-option--date{
+	background-color: white;
+	border: 1pt solid white;
+	display: block;
+	font-size: 20px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	text-align: center;
+	width: 150px;
+}
+
+.menu__section-option--date:hover{
+	border: 1pt solid green;
+	cursor: pointer;
+}
+
+.menu__section-text{
+	margin: 10px;
+}

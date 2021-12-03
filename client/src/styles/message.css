@@ -1,0 +1,39 @@
+.message--confirmation{
+	color: green;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.message--error{
+	color: red;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.message--login{
+	padding-top: 20px;
+	text-align: center;
+	width: 100%;
+}
+
+.message--loading{
+	color: green;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.message__close-button{
+	background: white;
+	border: none;
+	float: right;
+}
+
+.message__close-button:hover{
+	cursor: pointer;
+}

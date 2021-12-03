@@ -1,0 +1,85 @@
+.overlay--off{
+	display: none;
+}
+
+.overlay--on{
+	background-color: rgba(0,0,0,0.5);
+	bottom: 0;
+	display: flex;
+	height: 100%;
+	left: 0;
+	overflow: auto;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+
+.overlay__close-button{
+	background: white;
+	border: none;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.overlay__close-button:hover{
+	cursor: pointer;
+}
+
+.overlay__display{
+	background: white;
+	border: solid;
+	height: 350px;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	min-width: 400px;
+	position: relative;
+	width: 400px;
+}
+
+.overlay__display-login{
+	background: white;
+	border: solid;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	min-width: 300px;
+	position: relative;
+	width: 300px;
+}
+
+.overlay__display-signup{
+	background: white;
+	border: solid;
+	margin-bottom: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	min-width: 350px;
+	position: relative;
+	width: 350px;
+}
+
+.overlay__header{
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.overlay__header-container{
+	height: 50px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.overlay__scrollbox{
+	height: 300px;
+	overflow: auto;
+	width: 100%;
+}

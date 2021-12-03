@@ -1,0 +1,71 @@
+.options__button{
+	background-color: white;
+	border: 1pt solid black;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.options__button:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+.options__container{
+	float: right;
+	margin: 5px;
+	padding: 0px;
+	position: relative;
+	width: 120px;
+}
+
+.options__menu--active{
+	background-color: white;
+	display: block;
+	left: 0px;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 30px;
+}
+
+.options__menu--hidden{
+	display: none;
+}
+
+.options__menu-remove-item{
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: 0pt 1pt 1pt 1pt;
+	display: inline-block;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.options__menu-remove-item:hover{
+	background-color: red;
+	cursor: pointer;
+	margin: 0px;
+	padding: 0px;
+}
+
+.options__radio-button:hover{
+	cursor: pointer;
+}
+
+.options__spacer{
+	height: 5px;
+}
+
+.options__table{
+	border-color: black;
+	border-style: solid;
+	border-width: 0pt 1pt 1pt 1pt;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}

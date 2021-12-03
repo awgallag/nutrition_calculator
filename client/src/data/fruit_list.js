@@ -1,0 +1,39 @@
+let fruitList = new Map()
+
+fruitList['Apple'] = require('./images/Fruits/Apple.png').default
+fruitList['Avocado'] = require('./images/Fruits/Avocado.png').default
+fruitList['Banana'] = require('./images/Fruits/Bananas.png').default
+fruitList['Blueberries'] = require('./images/Fruits/Blueberries.png').default
+fruitList['Bosc Pear'] = require('./images/Fruits/Bosc_Pear.png').default
+fruitList['Cantaloupe'] = require('./images/Fruits/Cantaloupe.png').default
+fruitList['Cherries'] = require('./images/Fruits/Cherries.png').default
+fruitList['Clementine'] = require('./images/Fruits/Clementine.png').default
+fruitList['Coconut'] = require('./images/Fruits/Coconut.png').default
+fruitList['Cranberries'] = require('./images/Fruits/Cranberries.png').default
+fruitList['Dates'] = require('./images/Fruits/Dates.png').default
+fruitList['Figs'] = require('./images/Fruits/Figs.png').default
+fruitList['Goji Berries'] = require('./images/Fruits/Goji_Berries.png').default
+fruitList['Granny Smith Apple'] = require('./images/Fruits/Granny_Smith_Apple.png').default
+fruitList['Grapes'] = require('./images/Fruits/Grapes.png').default
+fruitList['Green Bell Pepper'] = require('./images/Fruits/Green_Bell_Pepper.png').default
+fruitList['Guava'] = require('./images/Fruits/Guava.png').default
+fruitList['Honeydew Melon'] = require('./images/Fruits/Honeydew_Melon.png').default
+fruitList['Jalapeno'] = require('./images/Fruits/Jalapeno.png').default
+fruitList['Lemon'] = require('./images/Fruits/Lemon.png').default
+fruitList['Lime'] = require('./images/Fruits/Lime.png').default
+fruitList['Mandarin'] = require('./images/Fruits/Mandarin_Orange.png').default
+fruitList['Mango'] = require('./images/Fruits/Mango.png').default
+fruitList['Nectarine'] = require('./images/Fruits/Nectarine.png').default
+fruitList['Orange'] = require('./images/Fruits/Orange.png').default
+fruitList['Papaya'] = require('./images/Fruits/Papaya.png').default
+fruitList['Peach'] = require('./images/Fruits/Peach.png').default
+fruitList['Pineapple'] = require('./images/Fruits/Pineapple.png').default
+fruitList['Plum'] = require('./images/Fruits/Plum.png').default
+fruitList['Pomegranates'] = require('./images/Fruits/Pomegranate.png').default
+fruitList['Red Bell Pepper'] = require('./images/Fruits/Red_Bell_Pepper.png').default
+fruitList['Rhubarb'] = require('./images/Fruits/Rhubarb.png').default
+fruitList['Strawberries'] = require('./images/Fruits/Strawberries.png').default
+fruitList['Watermelon'] = require('./images/Fruits/Watermelon.png').default
+fruitList['Yellow Bell Pepper'] = require('./images/Fruits/Yellow_Bell_Pepper.png').default
+
+export { fruitList as default }

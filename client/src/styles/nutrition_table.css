@@ -1,0 +1,54 @@
+.nutrition-table{
+	border: 1pt solid black;
+	border-collapse: collapse;
+	margin: auto;
+	min-width: 300px;
+	text-align: center;
+}
+
+.nutrition-table__header{
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.nutrition-table__progress-bar{
+	background-color: green;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nutrition-table__td{
+	border: 1pt solid black;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.nutrition-table__td--progress-bar-container{
+	border: 1pt solid black;
+	border-collapse: collapse;
+	height: 30px;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0px;
+	text-align: center;
+	width: 200px;
+}
+
+.nutrition-table__td--progress-bar-label{
+	border: 1pt solid black;
+	border-collapse: collapse;
+	height: 30px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	width: 100px;
+}
+
+.nutrition-table__th{
+	border: 1pt solid black;
+	border-collapse: collapse;
+	text-align: center;
+}

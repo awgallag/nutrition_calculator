@@ -1,0 +1,34 @@
+.banner{
+	background-color: #111;
+	color: white;
+	display: block;
+	font-family: serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	height: 30px;
+	min-width: 500px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Test for small screens (phones and tablets)*/
+/*
+@media screen and (max-width: 344px){
+	.banner{
+		background-color: #111;
+		color: white;
+		display: block;
+		font-family: serif;
+		font-size: 1.5em;
+		font-weight: bold;
+		height: 30px;
+		min-width: 200px;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		text-align: center;
+		text-decoration: none;
+	}
+}
+*/

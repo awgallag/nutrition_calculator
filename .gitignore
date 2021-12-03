@@ -1,0 +1,5 @@
+# No modules
+node_modules
+
+# Environment variables set for heroku local
+.env

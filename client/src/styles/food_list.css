@@ -1,0 +1,36 @@
+.food-list--images__container{
+	width: 100%;
+}
+
+.food-list--images__item{
+	border-color: white;
+	border-style: solid;
+	height: 100px;
+	margin: 1px;
+	padding: 0;
+	width: 100px;
+}
+
+.food-list--images__item:hover{
+	border-color: green;
+	cursor: pointer;
+}
+
+.food-list--text__container{
+	width: 200px;
+}
+
+.food-list--text__item{
+	background: white;
+	border: solid;
+	border-color: white;
+	margin: 0px;
+	padding: 5px;
+	width: 100%;
+}
+
+.food-list--text__item:hover{
+	border: solid;
+	border-color: green;
+	cursor: pointer;
+}
